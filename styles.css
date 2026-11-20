@@ -44,6 +44,20 @@ footer {
   text-align: center;
   font-family: "Indie Flower", cursive;
 }
+button{
+  text-align: center;
+  display: block;
+  margin:auto;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(75, 181, 9);
+  padding: 10px;
+  color: #ffff;
+  transition-duration: 0.4s;
+}
+button:hover{
+  background-color: rgb(113, 208, 54);
+}
 @media (max-width: 768px) {
   .container {
     text-align: center;
